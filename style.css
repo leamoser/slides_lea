@@ -1,0 +1,23 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+section{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-of-type(1){ background: indianred; z-index: 1; }
+section:nth-of-type(2){ background: lightsalmon; z-index: 2; }
+section:nth-of-type(3){ background: lightskyblue; z-index: 3; }
+section:nth-of-type(4){ background: lightgreen; z-index: 4; }
