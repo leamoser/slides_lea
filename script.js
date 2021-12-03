@@ -1,3 +1,3 @@
-const SLIDES = require('slides_lea/script')
+const SLIDES = require('slides_lea')
 SLIDES.check()
 SLIDES.init('section')
